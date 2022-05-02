@@ -16,3 +16,20 @@ closeMenu.addEventListener ('click',
         hamburgerMenu.style.display = "none";
     }
 )
+
+// Sarebbe stato meglio farlo in questo modo
+// const hamburgerMenu = document.getElementsByClassName("hamburger-menu")[0];
+// const openMenu = document.getElementById ("open-menu");
+// const closeMenu = document.getElementById ("close-menu");
+
+// openMenu.addEventListener ('click', 
+//     function () {
+//         hamburgerMenu.classList.add("active");
+//     }
+// )
+
+// closeMenu.addEventListener ('click', 
+//     function () {
+//         hamburgerMenu.classList.remove("active");
+//     }
+// )
